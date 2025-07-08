@@ -1,16 +1,1 @@
-# Criar pasta do projeto
-mkdir sghss
-cd sghss
-
-# Inicializar repositório Git
-git init
-
-# Criar estrutura básica de pastas
-mkdir -p backend/{config,controllers,models,routes,middlewares,tests/{unit,integration}}
-mkdir -p frontend/src/{assets,components/{Paciente,Shared},pages,services}
-mkdir -p database/{migrations,seeds}
-mkdir -p docs/{diagramas,requisitos,relatorios}
-
-# Criar arquivos iniciais
-touch .gitignore README.md LICENSE backend/README.md frontend/README.md database/README.md
 
