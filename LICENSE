@@ -1,21 +1,16 @@
-MIT License
+# Criar pasta do projeto
+mkdir sghss
+cd sghss
 
-Copyright (c) 2025 luisvhf
+# Inicializar repositório Git
+git init
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+# Criar estrutura básica de pastas
+mkdir -p backend/{config,controllers,models,routes,middlewares,tests/{unit,integration}}
+mkdir -p frontend/src/{assets,components/{Paciente,Shared},pages,services}
+mkdir -p database/{migrations,seeds}
+mkdir -p docs/{diagramas,requisitos,relatorios}
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+# Criar arquivos iniciais
+touch .gitignore README.md LICENSE backend/README.md frontend/README.md database/README.md
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
